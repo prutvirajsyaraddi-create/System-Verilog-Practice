@@ -1,4 +1,4 @@
-module demux_4-1(
+module demux_1(
   input logic [7:0]d,
   input logic [1:0]sel,
   output logic [7:0]y0,y1,y2,y3);
