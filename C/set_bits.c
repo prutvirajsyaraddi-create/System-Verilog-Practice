@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    unsigned int n=13;
+    unsigned int n;
+    printf("enter a number= ");
+    scanf("%u",&n);
     int count=0;
     while(n!=0){
         count+=n&1u;
